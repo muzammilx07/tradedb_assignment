@@ -3,11 +3,12 @@ const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-app.use(cors({
-  origin: "*", 
-  methods: ["GET"],
-  allowedHeaders: ["Content-Type", "Authorization"]
-}));
+app.use(
+  cors({
+    origin: ["https://tradedb-assignment-t4m3.vercel.app"], 
+    methods: ["GET"]
+  })
+);
 
 app.get("/analytics", (req, res) => {
   const plTrendTrades = [
