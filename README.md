@@ -26,27 +26,50 @@ Built with **React (Vite)** for frontend and **Node.js + Express** for backend, 
 
 ## 4. Directory Structure
 project-root/
+
 ├── client/ # React frontend
+
 │ ├── src/
+
 │ │ ├── components/ # Layout components
+
 │ │ │ ├── AnalyticsSidebar.jsx
+
 │ │ │ ├── Topbar.jsx
+
 │ │ │ └── ...
+
 │ │ ├── ui/ # UI components
+
 │ │ │ ├── MetricCard.jsx
+
 │ │ │ ├── ToggleSwitch.jsx
+
 │ │ │ ├── TradeTable.jsx
+
 │ │ │ ├── ChartTable.jsx
+
 │ │ │ └── ...
+
 │ │ ├── fetchAnalystic/ # API fetch functions
+
 │ │ │ └── fetchAnalytics.jsx
+
 │ │ ├── App.jsx
+
 │ │ ├── main.jsx
+
 │ │ └── index.css
+
 │ └── package.json
+
+
 ├── server/ # Node.js + Express backend
+
 │ └── index.js # Server entry point
+
 ├── .gitignore
+
 └── README.md
 
 ## 5. Theme & Styling
